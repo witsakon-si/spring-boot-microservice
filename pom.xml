@@ -12,6 +12,7 @@
     <description>Spring Boot Microservice</description>
 
     <modules>
-
+        <module>employee</module>
+        <module>department</module>
     </modules>
 </project>
