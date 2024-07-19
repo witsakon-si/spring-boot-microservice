@@ -14,5 +14,6 @@
     <modules>
         <module>employee</module>
         <module>department</module>
+        <module>discovery</module>
     </modules>
 </project>
