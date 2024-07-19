@@ -24,3 +24,8 @@ springdoc:
   api-docs:
     path: /v2/api-docs
   show-actuator: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9001/eureka
