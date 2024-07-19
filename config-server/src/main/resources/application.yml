@@ -8,7 +8,8 @@ spring:
     config:
       server:
         git:
-          uri: file://${user.home}/application-config
+#          uri: file://${user.home}/application-config
+          uri: https://github.com/witsakon-si/application-config.git
 
 eureka:
   client:

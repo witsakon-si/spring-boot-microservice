@@ -1,31 +1,31 @@
-server:
-  port: 8081
-
-spring:
-  application:
-    name: employee-service
-  data:
-    mongodb:
-      host: localhost
-      port: 27017
-      database: employee
-  mvc:
-    pathmatch:
-      matching-strategy: ANT_PATH_MATCHER
-de:
-  flapdoodle:
-    mongodb:
-      embedded:
-        version: 5.0.5
-springdoc:
-  swagger-ui:
-    disable-swagger-default-url: true
-    path: /swagger-ui.html
-  api-docs:
-    path: /v2/api-docs
-  show-actuator: true
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:9001/eureka
+#server:
+#  port: 8081
+#
+#spring:
+#  application:
+#    name: employee-service
+#  data:
+#    mongodb:
+#      host: localhost
+#      port: 27017
+#      database: employee
+#  mvc:
+#    pathmatch:
+#      matching-strategy: ANT_PATH_MATCHER
+#de:
+#  flapdoodle:
+#    mongodb:
+#      embedded:
+#        version: 5.0.5
+#springdoc:
+#  swagger-ui:
+#    disable-swagger-default-url: true
+#    path: /swagger-ui.html
+#  api-docs:
+#    path: /v2/api-docs
+#  show-actuator: true
+#
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:9001/eureka
